@@ -27,7 +27,7 @@ for i in temp2:
 	sum = 0
 	for x in range(1,129):
 		for y in range(0,256):
-			sum = sum+(math.pow(2,x*-2)*abs(coef[x-1][y]))
+			sum = sum+(math.pow(2,x*-2)*abs(coef[x-1][y]))	#Calculating EMD in wavelet domain
 	final.append(sum)
 #print final
 
